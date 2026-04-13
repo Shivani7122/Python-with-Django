@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hotel Feedback</title>
+    </head>
+    <body>
+        <h1><u><b>Hotel Feedback Form </b></u></h1>
+        <br>
+        <form method="get">
+            <!--    RADIO BUTTON   -->
+            <h2>Are your from inside India? Or Outside India?</h2>
+             <!-- NOTE:-  By giving same name to both the radio labels we can choose only one out the options given !!-->
+            <label for="inind">Inside: </label>
+            <input id= "inind" type="radio" name="loc" value="">
+
+            <label for="outind">Outside: </label>
+            <input id= "outind" type="radio" name="loc" value="">
+
+            <h2>How was your service?</h2>
+            <!--     DROPDOWN MENU    -->
+            <select name="stars" id="">
+                <option value="Excellent">5</option>
+                <option value="Great">4</option>
+                <option value="good">3</option>
+                <option value="ok">2</option>
+                <option value="bad">1</option>
+                <option value="Disastrous">0</option>
+
+            </select>
+
+            <h2>Any other feedback?</h2>
+
+            <!-- block of text => textarea -->
+            <textarea name="mytext" rows="8" cols="80"></textarea>
+
+
+
+            <input type="submit" name="" value="SUBMIT!">
+
+        </form>
+    </body>
+</html>
