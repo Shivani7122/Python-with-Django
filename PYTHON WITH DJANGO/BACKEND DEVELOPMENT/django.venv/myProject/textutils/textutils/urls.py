@@ -26,5 +26,5 @@ urlpatterns = [
     path('newlineremove', view.remline, name='newlineremove'), 
     path('capitalizeFirst', view.capfirst,name='capfirst'),
     path('spaceremove', view.spcrem,name='Remove Space'),
-    path('charcount', view.charcnt,name='Count Character'),
+    path('charcount', view.charcnt,name='Count Character')
 ]

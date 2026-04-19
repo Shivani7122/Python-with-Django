@@ -23,4 +23,3 @@ def charcnt(request):
 
 def spcrem(request):
     return HttpResponse('''Remove Space <br></br> <a href="/">Back</a>''')
-
