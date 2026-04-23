@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>Template Utils</title>
 </head>
-<body>
+<body style="background-color: bisque;">
     <h1>Welcome to the text analyzer. Enter your text below</h1>
     <form action='/removepunc' method='get'>
-        <textarea name='text' style='margin: 0px; width: 721px; height: 93px;'></textarea>
-        <br></br><input type="checkbox" name="removepunc"> Remove Punctuations<br></br><button type='submit'> Analyze Text</button>
+        <textarea name='text' style='margin: 0px; width: 721px; height: 93px;background-color: rgb(69, 233, 173);'></textarea>
+        <br></br>
+        <input type="checkbox" name="removepunc"> Remove Punctuations<br></br>
+        <input type="checkbox" name="fullcaps"> UPPERCASE<br></br>
+        <input type="checkbox" name="lowercase"> lowercase<br></br>
+        <button type='submit' style="background-color: blueviolet;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Analyze Text</button>
     </form>
 </body>
 </html>

@@ -9,5 +9,5 @@ def nav(rquest):
     <a href="https://www.youtube.com/watch?v=3obEP8eLsCw&pp=ygUQb3BlcmF0aW5nIHN5c3RlbQ%3D%3D">Operatin Systems by LoveBabbar</a><br>
     <a href="https://www.youtube.com/watch?v=dl00fOOYLOM&pp=ygUQZGJtcyBsb3ZlIGJhYmJhcg%3D%3D">DBMS by LoveBabbar</a><br>
     <a href="https://youtu.be/6l88XYUjNIs?si=OV_rAF8lWW6kkbqR">Cloud Computing by 5-Minutes Engineering</a><br>
-    <a href="https://youtu.be/lFeYU31TnQ8?si=DOW4sQS6EaFP_BR-">System Design by Piyush Garg</a>'''
+    <a href="https://www.youtube.com/watch?v=lFeYU31TnQ8&list=PLinedj3B30sBlBWRox2V2tg9QJ2zr4M3o">System Design by Piyush Garg</a>'''
     return HttpResponse(s)
