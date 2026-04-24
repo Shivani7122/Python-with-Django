@@ -72,3 +72,9 @@ cd Python-with-Django
 pip install -r requirements.txt
 python manage.py runserver
 http://127.0.0.1:8000/
+
+👩‍💻 Author
+
+Shivani Gupta
+
+🔗 LinkedIn: https://www.linkedin.com/in/shivani-gupta7122
